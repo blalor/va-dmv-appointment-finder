@@ -120,7 +120,7 @@ def main(location=None):
     availability.sort(key=lambda x: x[1])
 
     for loc, dt in availability[:10]:
-        print(f"{loc} {dt}")
+        print(f"{loc} {dt} https://vadmvappointments.as.me/schedule.php?calendarID={calendar_ids[loc]}")
 
 
 if __name__ == "__main__":
